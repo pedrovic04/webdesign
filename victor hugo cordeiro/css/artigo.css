@@ -1,0 +1,141 @@
+@charset 'UTF-8';
+
+article, section, aside, footer, header, menu, nav, figure, figcaption, hgroup, details {
+	display: block;
+}
+
+body a{
+	padding: 10px;
+}
+
+body #tudo{
+	background: #D3D3D3;
+	border: 1px solid #000;
+	margin: 30px;
+	width: 635px;
+}
+
+body #tudo #header{
+	background: #A9A9A9;
+	border: 1px solid #000;
+	margin: 10px;
+	padding: 10px;
+}
+
+body #tudo #header h1{
+	text-align: center;
+	position: relative;
+	left: -100px;
+}
+
+body #tudo nav{
+	background: #A9A9A9;
+	border: 1px solid #000;
+	margin: 10px 10px 0;
+	padding: 10px;
+	text-align: center;
+}
+
+body #tudo nav img{
+	display: inline;
+	margin: 0px 5px;
+	position: relative;
+	top: -100px;
+}
+
+body #tudo nav ul{
+	list-style-type: none;
+	padding: 0;
+	display: inline-block;
+	position: relative;
+	top: -70px;
+	left: -20px;
+}
+
+body #tudo nav ul li{
+	display: inline;
+	margin: 0px 5px;
+}
+
+body #tudo nav #logo{
+	float: left;
+	position: relative;
+}
+
+body #tudo nav .icon{
+	float: right;
+}
+
+body #tudo #content{
+	background: #A9A9A9;
+	border: 1px solid #000;
+	margin: 10px;
+	display: inline-flex;
+	height: 254px;
+	width: 593px;
+	padding: 10px;
+}
+
+body #tudo #content article{
+	background: #D3D3D3;
+	border: 1px solid #000;
+	margin: 30px 10px;
+	width: 233px;
+	position: absolute;
+	padding: 10px;
+}
+
+body #tudo #content article header h1{
+	background: #A9A9A9;
+	border: 1px solid #000;
+	margin: 10px;
+}
+
+body #tudo #content article header p{
+	background: #A9A9A9;
+	border: 1px solid #000;
+	margin: 10px;
+}
+
+body #tudo #content article p{
+	background: #A9A9A9;
+	border: 1px solid #000;
+	margin: 10px;
+	padding-bottom: 20px;
+}
+
+body #tudo #content article footer{
+	background: #A9A9A9;
+	border: 1px solid #000;
+	margin: 10px;
+}
+
+body #tudo #content #sidebar{
+	background: #D3D3D3;
+	border: 1px solid #000;
+	position: relative;
+	top: 30px;
+	left: 124px;
+	height: 102px;
+	padding: 10px;
+	margin-left: 40px;
+}
+
+body #tudo #content #sidebar h3{
+	background: #A9A9A9;
+	border: 1px solid #000;
+	margin: 10px;
+}
+
+body #tudo #content #sidebar p{
+	background: #A9A9A9;
+	border: 1px solid #000;
+	margin: 10px;
+}
+
+body #tudo #footer{
+	background: #A9A9A9;
+	border: 1px solid #000;
+	margin: 0 10px 10px;
+	padding: 10px;
+}

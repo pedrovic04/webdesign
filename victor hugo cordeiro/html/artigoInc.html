@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="utf-8">
+		<title>Artigo - (html5)</title>
+		
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<style>
+			article, section, aside, footer, header, menu, nav, figure, figcaption, hgroup, details {display: block;}
+
+			body a{ padding: 10px;}
+			body #tudo{ background: #D3D3D3; border: 1px solid #000; margin: 30px; width: 635px;}
+			body #tudo #header{ background: #A9A9A9; border: 1px solid #000; margin: 10px; padding: 10px;}
+			body #tudo nav{ background: #A9A9A9; border: 1px solid #000; margin: 10px 10px 0; padding: 10px;}
+			body #tudo nav img{ display: inline; margin: 0px 5px;}
+			body #tudo nav ul{ list-style-type: none; padding: 0; display: inline-block;}
+			body #tudo nav .icon{ position: relative; right: -300px;}
+			body #tudo #content{ background: #A9A9A9; border: 1px solid #000; margin: 10px; display: inline-flex; height: 254px; width: 593px; padding: 10px;}
+			body #tudo #content article{ background: #D3D3D3; border: 1px solid #000; margin: 30px 10px; width: 233px;position: absolute; padding: 10px;}
+			body #tudo #content article header h1{ background: #A9A9A9; border: 1px solid #000; margin: 10px;}
+			body #tudo #content article header p{ background: #A9A9A9; border: 1px solid #000; margin: 10px;}
+			body #tudo #content article p{ background: #A9A9A9; border: 1px solid #000; margin: 10px; padding-bottom: 20px;}
+			body #tudo #content article footer{ background: #A9A9A9; border: 1px solid #000; margin: 10px;}
+			body #tudo #content #sidebar{ background: #D3D3D3; border: 1px solid #000; position: relative; top: 30px; left: 124px; height: 102px; padding: 10px; margin-left: 40px;}
+			body #tudo #content #sidebar h3{ background: #A9A9A9; border: 1px solid #000; margin: 10px;}
+			body #tudo #content #sidebar p{ background: #A9A9A9; border: 1px solid #000; margin: 10px;}
+			body #tudo #footer{ background: #A9A9A9; border: 1px solid #000; margin: 0 10px 10px; padding: 10px;}
+		</style>
+	</head>
+	<body>
+		<h1>Exemplo do uso da tag article</h1>
+		<a href="simplepage.html">Voltar para simplePage</a>
+		<a href="./atividade/html/ajustes.html">Voltar para atividade de Ajuste</a>
+		<!-- início -->
+		<div id="tudo">
+			<header id="header">
+				<h1>Nome do site <small>logo, busca etc.</small></h1>
+			</header>
+			<!-- /header - sem sessão -->
+			<nav>
+				<img src="../img/logo_artigo.png">
+				<ul>
+					<li>navegação principal</li>
+				</ul>
+				<img class="icon" src="../img/user_icon_16.png">
+				<img class="icon" src="../img/zoom_icon_16.png">
+			</nav>
+			<!-- /nav -->
+			<div id="content"> Conteúdo principal
+				<article> Coluna principal do artigo
+					<header>
+						<h1>Título do artigo</h1>
+						<p>Metadados do artigo</p>
+					</header>
+					<p>Conteúdo do artigo ...</p>
+					<footer>
+						Rodapé do artigo
+					</footer>
+				</article>
+				<!-- /article - conteúdo principal do artigo -->
+				<aside id="sidebar"> Coluna lateral
+					<h3>Título da barra lateral</h3>
+					<p>Conteúdo da barra lateral</p>
+				</aside>
+				<!-- /aside - segundo conteúdo. fica ao lado do conteúdo principal da página -->
+			</div>
+			<!-- /div - para css e sem sessão -->
+			<footer id="footer">
+				Rodapé da página
+			</footer>
+			<!-- /footer - rodapé da página -->
+	</div>
+	<!-- /fim -->
+</body>
+</html>

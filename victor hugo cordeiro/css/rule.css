@@ -1,0 +1,83 @@
+@charset 'UTF-8';
+
+body #div1{
+	padding: 10px;
+	width: 680px;
+	border-radius: 0.5em;
+	border: 1px solid #000000;
+	background: #00aeed;
+}
+
+body #div1 div{
+	background: #dedede;
+	border-radius: 0.5em;
+	padding: 10px;
+	border: 1px solid #000000;
+}
+
+body #div1 div span{
+	font-style: italic;
+}
+
+body #div2{
+	padding: 10px;
+	width: 680px;
+	border-radius: 0.5em;
+	border: 1px solid #000;
+	background: #dedede;
+	margin-bottom: 30px;
+}
+
+body #div2 span{
+	font-style: italic;
+}
+
+body #div2 p img{
+	width: 691px;
+	padding-top: 15px;
+}
+
+body #div2 .code{
+	border: 1px solid #000;
+	padding: 10px;
+	background: #efefef;
+}
+
+body #div2 p span{
+	font-style: italic;
+}
+
+body #div2 .code span{
+	padding-left: 1.5em;
+}
+
+body #div3{
+	padding: 10px; width: 680px;
+	border-radius: 0.5em;
+	border:1px solid #000000;
+	background: #ff0000;
+}
+
+body #div3 div{
+	background: #dedede;
+	border-radius: 0.5em;
+	padding: 10px;
+	border: 1px solid #000000;
+}
+
+body #div3 div span{
+	font-style: italic;
+}
+
+body #div3 div table{
+	border: 1px solid #000;
+	border-collapse: collapse;
+}
+
+body #div3 div table th{
+	border: 1px solid #000;
+}
+
+body #div3 div table td{
+	border: 1px solid #000;
+}
